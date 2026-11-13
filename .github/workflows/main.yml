@@ -1,0 +1,13 @@
+name: shah_fahad
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+   demo:
+     runs-on: ubantu-latest
+
+     steps: 
+        - name: Fabulous
+          run: echo "Hello From Shah Fahad"
